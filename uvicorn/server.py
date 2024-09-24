@@ -83,6 +83,7 @@ class Server:
 
         await self.startup(sockets=sockets)
         if self.should_exit:
+            await self.shutdown(sockets=sockets)
             return
         await self.main_loop()
         await self.shutdown(sockets=sockets)
