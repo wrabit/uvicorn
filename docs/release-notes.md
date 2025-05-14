@@ -1,6 +1,24 @@
----
+
 toc_depth: 2
 ---
+
+## 0.34.3 (April 19, 2025)
+
+### Fixed
+
+* Don't include `cwd()` when non-empty `--reload-dirs` is passed (#2598)
+
+## 0.34.2 (April 19, 2025)
+
+### Fixed
+
+* Flush stdout buffer on Windows to trigger reload (#2604)
+
+## 0.34.1 (April 13, 2025)
+
+### Deprecated
+
+* Deprecate `ServerState` in the main module (#2581)
 
 ## 0.34.0 (December 15, 2024)
 
